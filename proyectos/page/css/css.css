@@ -1,0 +1,80 @@
+* { /*Universal*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ /*Selector universal*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e3cd0c;
+}
+
+.contenedorPrincipal {/*Selector de clase*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {/*Selector de etiqueta o tipo*/
+    background-color: #0823f3;
+    width: 100%;
+    height: 80px;
+}
+header nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: rgb(255, 254, 254);
+}
+header nav ul li a:hover {
+    background-color: rgb(241, 122, 10);
+    color: rgb(243, 237, 237);
+}
+
+/*<!--- #designer{Selector de identificadores o id --->
+
+}*/
+
+.menu{
+    font-size:x-large;
+}
+
+main{
+    clear: both;
+    background-color: rgb(150, 245, 242);
+    width: 70%;
+    float: left;
+}
+ #designer img{
+    max-width: 100%;
+    max-height: 20%;
+}
+
+main section{
+    padding: 10%;
+}
+
+main section p {
+    text-align: justify;
+    margin-bottom: 36px;
+    line-height: 1.5em;
+}
+
+aside{
+    width: 10%;
+    float: right;
+    background-color: #f3df08;
+    padding: 30%;
+    font-size: 1em;
+}
+
+footer section{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    color: rgb(242, 242, 247);
+}
